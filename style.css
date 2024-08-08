@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/miama");
+body {
+  margin: 0px;
+  padding: 0px;
+  /* color: aliceblue; */
+  font-family: Inter;
+  background-color: #3f3434;
+}
+
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+  max-width: 1640px;
+  margin: 0 auto;
+  height: 100vh;
+}
+main {
+  /* visibility: hidden; */
+  background: rgb(185, 185, 185);
+}
+
+.nav {
+  max-width: 1060px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.nav-title {
+  color: #e6533c;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.home {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.red {
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  padding: 8px 20px 8px 20px;
+  color: aliceblue;
+}
+
+.black-btn {
+  /* background-color: #E6533C; */
+  background-color: #171717;
+  border-radius: 50px;
+  padding: 15px;
+  color: aliceblue;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  /* padding: 10px ; */
+  border: 0.5px solid rgb(45, 44, 44);
+  border-radius: 40px;
+  align-items: center;
+  padding-right: 20px;
+}
+.banner {
+  width: 1060px;
+  margin: 0 auto;
+  color: aliceblue;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 80px;
+}
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+}
+.title {
+  /* border: 1px solid red; */
+  /* padding: 200px; */
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+.shape {
+  font-family: Miama;
+}
+.banner-left {
+  width: 500px;
+}
+.shape {
+  font-weight: 500;
+}
+.workout-vedio {
+  /* border: 1px solid; */
+  /* border-radius: 20px; */
+  width: 50%;
+  padding: 10px;
+  /* background-color: #453e3e; */
+  /* margin-top: -1070px; */
+  /* margin-left: 400px; */
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+}
+.tutorial {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 50%;
+  padding: 10px;
+  background-color: #453e3e;
+  /* margin-top: 180px; */
+  /* margin-left: -150px; */
+}
+.number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+main {
+  text-align: center;
+  padding: 60px;
+}
+.habit-images {
+  display: flex;
+}
+.images {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.run {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1040px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #453e3e;
+}
+.size-img {
+  width: 50%;
+  padding: 10px;
+}
+.bmi-cal {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid rgb(109, 106, 106);
+  padding: 5px 10px;
+  text-align: center;
+  color: #918383;
+}
+input {
+  background-color: #383837;
+  border-style: double;
+  margin: 5px;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+.big {
+  width: 85%;
+}
+.team {
+  width: 1040px;
+  margin: 0 auto;
+  background-color: #453e3e;
+}
+.team-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+footer {
+  background-color: rgb(109, 106, 106);
+  padding: 20px;
+}
+.footer-container {
+  /* background-color: #453e3e; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+ol {
+  list-style: none;
+}
+footer > p {
+  text-align: center;
+}
